@@ -18,7 +18,7 @@ function draw() {
     h = h + 30;
   }
 
-  if (random() > 0.999) {
+  if (random() > 1.4) {
     fill(255);
     rect(0, 0, width, height-15);
     h = 10;
